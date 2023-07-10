@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container-wrapper {
+  @apply max-w-[1180px] mx-auto w-[90%];
+}
+.bg-grad{
+  background: linear-gradient(269.26deg,#1e244b 6.59%,#2f42aa 94.04%);
+}
