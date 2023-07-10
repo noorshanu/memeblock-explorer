@@ -37,7 +37,7 @@ export default function Navbar() {
   return (
     // bg-[#14141f]
     <Popover
-      className={`z-50 fixed top-[30px] left-0 right-0 mx-auto ${
+      className={`z-50 fixed top-[20px] left-0 right-0 mx-auto ${
         blur
           ? 'bg-white bg-opacity-[0.0001] backdrop-filter backdrop-blur-2xl'
           : 'bg-transparent'
@@ -60,7 +60,7 @@ export default function Navbar() {
                      ${
                        route === nav.route
                          ? ' text-opacity-100 '
-                         : 'text-opacity-30'
+                         : 'text-opacity-80'
                      }
                   `}
                 >
