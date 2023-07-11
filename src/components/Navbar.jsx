@@ -10,22 +10,22 @@ let navItems = [
     icon: '/assets/icons/business.png',
   },
   {
-    label: 'About Us',
+    label: 'Blockchain',
     route: 'Market',
     icon: '/assets/icons/finance.png',
   },
   {
-    label: 'Roadmap',
+    label: 'coins',
     route: 'Market',
     icon: '/assets/icons/finance.png',
   },
   {
-    label: 'Tokenomics',
+    label: 'Validator',
     route: 'Market',
     icon: '/assets/icons/finance.png',
   },
   {
-    label: 'How to buy',
+    label: 'Statices',
     route: 'how-to-buy',
     icon: '/assets/icons/finance.png',
   },
@@ -37,7 +37,7 @@ export default function Navbar() {
   return (
     // bg-[#14141f]
     <Popover
-      className={`z-50 fixed top-[20px] left-0 right-0 mx-auto ${
+      className={`z-10 fixed top-[20px] left-0 right-0 mx-auto ${
         blur
           ? 'bg-white bg-opacity-[0.0001] backdrop-filter backdrop-blur-2xl'
           : 'bg-transparent'
