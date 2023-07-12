@@ -4,10 +4,10 @@ function Footer() {
   return (
     <>
     <footer id="masterFooter" class="bg-light mt-auto d-print-none">
-<div class="container-xxl">
-<div class="d-flex justify-content-between align-items-baseline py-6">
+<div class=" mx-auto max-w-7xl">
+<div class="flex justify-between align-items-baseline py-6">
 
-<div class="d-flex gap-2">
+<div class="flex gap-2">
 <a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://twitter.com/etherscan" rel="nofollow noopener" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Twitter">
 <i class="fab fa-twitter"></i>
 </a>
@@ -28,14 +28,14 @@ function Footer() {
 </div>
 <hr class="my-0"/>
 
-<div class="row justify-content-md-between py-8 py-lg-10">
+<div class="flex justify-between py-8 py-lg-10">
 <div class="col-lg-4 pe-xl-16 mb-4 mb-lg-0">
-<div class="d-flex align-items-center mb-3">
+<div class="flex align-items-center mb-3">
 <img class="me-2" width="20" data-img-theme="light" src="/images/svg/brands/ethereum-original.svg" alt="Ethereum Logo"/>
 <img class="me-2" width="20" data-img-theme="darkmode" src="/images/svg/brands/ethereum-original-light.svg" alt="Ethereum Logo"/>
 <span class="fs-5">Powered by Ethereum</span>
 </div>
-<p class="fs-sm">Etherscan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform.</p>
+<p class="fs-sm">Etherscan is a Block Explorer and Analytics Platform<br/> for Ethereum, a decentralized smart contracts platform.</p>
 <div class="d-none d-lg-block mt-n4 mb-n6">
 <img class="opacity-50" width="280" data-img-theme="light" src="/images/map.png" alt="Background Map Image"/>
 <img class="opacity-50" width="280" data-img-theme="darkmode" src="/images/map-light.png" alt="Background Map Image"/>

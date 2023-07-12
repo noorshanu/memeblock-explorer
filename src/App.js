@@ -4,6 +4,7 @@ import SearchBar from "./components/SearchBar";
 import BlockSection from "./sections/BlockSection";
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
+import TransactionBox from "./sections/TransactionBox";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Hero />
           <DropdownButton/>
           <BlockSection/>
+          <TransactionBox/>
           
         </div>
       </main>

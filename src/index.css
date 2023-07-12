@@ -8,3 +8,24 @@
 .bg-grad{
   background: linear-gradient(269.26deg,#1e244b 6.59%,#2f42aa 94.04%);
 }
+.card-tran{
+  box-shadow: 0 0 35px rgba(127,150,174,.125);
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #e7eaf3;
+  border-radius: 0.5rem;
+}
+
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
