@@ -1,28 +1,27 @@
-import React from 'react'
-import CurrentEpoch from '../components/CurrentEpoch'
-import NetworkTps from '../components/NetworkTps'
-import GasPrice from '../components/GasPrice'
-import AverageBlock from '../components/AverageBlock'
+import React from "react";
+import CurrentEpoch from "../components/CurrentEpoch";
+import NetworkTps from "../components/NetworkTps";
+import GasPrice from "../components/GasPrice";
+import AverageBlock from "../components/AverageBlock";
 
 function Hero() {
   return (
-    <section className='mt-12'>
-      <div className='max-w-6xl mx-auto'>
-        <div className='flex items-center justify-between'>
+    <section className="mt-12">
+      <div className="max-w-6xl mx-auto">
+        <div className="flex  justify-between gap-3">
           <div>
-            <NetworkTps/>
-              <CurrentEpoch/>
+            <NetworkTps />
+            <CurrentEpoch />
           </div>
-          <div>
-      <GasPrice/>
-      <AverageBlock/>
+          <div className="w-[90%]  h-full">
+          <AverageBlock />
+            <GasPrice />
+            
           </div>
-
         </div>
-
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

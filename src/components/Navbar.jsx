@@ -1,46 +1,46 @@
-import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
-import { BsTelegram } from 'react-icons/bs'
-import { AiOutlineTwitter } from 'react-icons/ai'
+import { Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { BsTelegram } from "react-icons/bs";
+import { AiOutlineTwitter } from "react-icons/ai";
 let navItems = [
   {
-    label: 'Home',
-    route: '/',
-    icon: '/assets/icons/business.png',
+    label: "Home",
+    route: "/",
+    icon: "/assets/icons/business.png",
   },
   {
-    label: 'Blockchain',
-    route: 'Market',
-    icon: '/assets/icons/finance.png',
+    label: "Blockchain",
+    route: "Market",
+    icon: "/assets/icons/finance.png",
   },
   {
-    label: 'coins',
-    route: 'Market',
-    icon: '/assets/icons/finance.png',
+    label: "coins",
+    route: "Market",
+    icon: "/assets/icons/finance.png",
   },
   {
-    label: 'Validator',
-    route: 'Market',
-    icon: '/assets/icons/finance.png',
+    label: "Validator",
+    route: "Market",
+    icon: "/assets/icons/finance.png",
   },
   {
-    label: 'Statices',
-    route: 'how-to-buy',
-    icon: '/assets/icons/finance.png',
+    label: "Statices",
+    route: "how-to-buy",
+    icon: "/assets/icons/finance.png",
   },
-]
+];
 
 export default function Navbar() {
-  const route = '/'
-  let blur = false
+  const route = "/";
+  let blur = false;
   return (
     // bg-[#14141f]
     <Popover
-      className={`z-10 fixed top-[30px] left-0 right-0 mx-auto ${
+      className={`z-10  top-[30px] left-0 right-0 mx-auto ${
         blur
-          ? 'bg-white bg-opacity-[0.0001] backdrop-filter backdrop-blur-2xl'
-          : 'bg-transparent'
+          ? "bg-white bg-opacity-[0.0001] backdrop-filter backdrop-blur-2xl"
+          : "bg-transparent"
       }   max-w-6xl`}
     >
       <div className="font-orbitron flex items-center justify-between  py-4 px-2 md:justify-start md:space-x-10 animate-top-left">
@@ -59,8 +59,8 @@ export default function Navbar() {
                      
                      ${
                        route === nav.route
-                         ? ' text-opacity-100 '
-                         : 'text-opacity-80'
+                         ? " text-opacity-100 "
+                         : "text-opacity-80"
                      }
                   `}
                 >
@@ -69,12 +69,12 @@ export default function Navbar() {
                     <span>{nav.label}</span>
                   </div>
                 </a>
-              )
+              );
             })}
           </Popover.Group>
           <div className="sm:flex hidden items-center gap-x-4 sm:flex-grow lg:flex-grow-0 justify-end">
-          <div className="bg-[#fff] bg-opacity-20 rounded-full h-[30px] w-[2px] mr-7 hidden lg:flex"></div>
-          
+            <div className="bg-[#fff] bg-opacity-20 rounded-full h-[30px] w-[2px] mr-7 hidden lg:flex"></div>
+
             <BsTelegram className="text-black hover:text-[#FD7D00]  hover:bg-white rounded-full text-2xl cursor-pointer" />
             <AiOutlineTwitter className="text-black hover:text-[#FD7D00] text-2xl cursor-pointer" />
           </div>
@@ -128,15 +128,15 @@ export default function Navbar() {
                       className={`rounded-md py-2 px-2 text-base font-medium  text-white hover:bg-gray-900
                         ${
                           (!route && i === 0) || route === nav.label
-                            ? ' bg-gray-900 text-[#54FF7F] '
-                            : 'text-white'
+                            ? " bg-gray-900 text-[#54FF7F] "
+                            : "text-white"
                         }
                         `}
                     >
                       {/* false ? " text-pink-400 bg-gray-900 " : "" */}
                       {nav.label}
                     </a>
-                  )
+                  );
                 })}
               </div>
             </div>
@@ -144,5 +144,5 @@ export default function Navbar() {
         </Popover.Panel>
       </Transition>
     </Popover>
-  )
+  );
 }

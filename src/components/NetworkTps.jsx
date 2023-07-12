@@ -12,7 +12,9 @@ function NetworkTps() {
           <p className=" break-words uppercase text-gray-600 text-xs font-semibold">
             TPS NOW / PEAK 30D
           </p>
-          <p className=" text-lg sm:text-xl font-semibold text-slate-600 text-center">258 / 2,105</p>
+          <p className=" text-lg sm:text-xl font-semibold text-slate-600 text-center">
+            258 / 2,105
+          </p>
         </div>
       </div>
     </div>
