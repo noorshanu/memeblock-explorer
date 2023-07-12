@@ -10,37 +10,10 @@ function TransactionBox() {
            
         <div class="flex justify-between px-3 mb-3">
           <p class=" text-slate-600 mb-md-0 text-base font-semibold">
-            579,835,397 transactions found{" "}<br/>
-            <span class=" text-sm font-light">
-              (Showing the last 100k records)
-            </span>
+          Latest User Transactions
           </p>
-          <div class=" sm:w-[25%] w-[50%]">
-            <form
-              action="/transactions"
-              method="get"
-              autocomplete="off"
-              spellcheck="false"
-              class="relative flex flex-wrap items-stretch w-full "
-            >
-              <input
-                type="search"
-                name="q"
-                class=" rounded border "
-                placeholder="Search by Address"
-                aria-label="Search by Address"
-                aria-describedby="Search"
-              />
-              <div class="input-group-append">
-                <button
-                  class="btn btn-secondary"
-                  type="submit"
-                  id="button-addon1"
-                >
-                  <i class="far fa-search"></i>
-                </button>
-              </div>
-            </form>
+          <div class="">
+       <button>View All</button>
           </div>
         </div>
         <div class="table-responsive mb-3">
