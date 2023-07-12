@@ -87,11 +87,11 @@ function GasPrice() {
               </div>
             </div>
           </div>
-          <div className="flex min-h-[180px] flex-1 flex-col items-center justify-center rounded-b-xl transition-colors">
+          <div className="flex min-h-[150px] flex-1 flex-col items-center justify-center rounded-b-xl transition-colors">
             <div className="relative flex-1 self-stretch">
               <div className="absolute h-full w-full" >
                 <div className="relative h-full w-full overflow-hidden">
-                  <svg width="452.390625" height="180">
+                  <svg width="100%" height="150">
                     <line
                       x1="0"
                       y1="5"
@@ -662,8 +662,8 @@ function GasPrice() {
                     <rect
                       x="0"
                       y="10"
-                      width="452.390625"
-                      height="170"
+                      width="100%"
+                      height="150"
                       fill="transparent"
                       stroke="none"
                     ></rect>
