@@ -1,5 +1,6 @@
 import React from 'react'
 import {FaTwitter,FaTelegramPlane,FaInstagram,FaGithub} from 'react-icons/fa'
+import {BsArrowUpSquare,BsFillHeartFill} from 'react-icons/bs'
 
 function Footer() {
   return (
@@ -23,8 +24,8 @@ function Footer() {
 </a>
 </div>
 
-<a class="link-dark" href="/">
-<i class="far fa-arrow-up-to-line me-1"></i>Back to Top
+<a class="link-dark flex gap-1 items-center" href="/">
+<BsArrowUpSquare/> Back to Top
 </a>
 </div>
 <hr class="my-0"/>
@@ -32,14 +33,13 @@ function Footer() {
 <div class="flex justify-between py-8 py-lg-10">
 <div class="col-lg-4 pe-xl-16 mb-4 mb-lg-0">
 <div class="flex align-items-center mb-3">
-<img class="me-2" width="20" data-img-theme="light" src="/images/svg/brands/ethereum-original.svg" alt="Ethereum Logo"/>
-<img class="me-2" width="20" data-img-theme="darkmode" src="/images/svg/brands/ethereum-original-light.svg" alt="Ethereum Logo"/>
-<span class="fs-5">Powered by Ethereum</span>
+<img class="me-2 h-[60px]"  data-img-theme="light" src="images/logo.png" alt="Ethereum Logo"/>
+
 </div>
-<p class="fs-sm">Etherscan is a Block Explorer and Analytics Platform<br/> for Ethereum, a decentralized smart contracts platform.</p>
+<p class="fs-sm">MEMEBLOCK is a Block Explorer and Analytics Platform<br/> for Ethereum, a decentralized smart contracts platform.</p>
 <div class="d-none d-lg-block mt-n4 mb-n6">
-<img class="opacity-50" width="280" data-img-theme="light" src="/images/map.png" alt="Background Map Image"/>
-<img class="opacity-50" width="280" data-img-theme="darkmode" src="/images/map-light.png" alt="Background Map Image"/>
+<img  width="280"  src="/images/map.png" alt="Background Map"/>
+
 </div>
 </div>
 <div class="col-6 col-md-4 col-lg mb-10 mb-md-0">
@@ -88,13 +88,13 @@ function Footer() {
 
 
 <div class="border-top py-4">
-<div class="row justify-content-between align-items-center fs-sm">
+<div class="flex justify-between items-center fs-sm">
 <div class="col-md mb-2 mb-md-0">
-<p class="mb-0">Etherscan © 2023 (F1)</p>
+<p class="mb-0">Memeblock © 2023 (F1)</p>
 </div>
 <div class="col-md text-md-end">
-<p class="mb-0">
-Donations: <a class="me-1" href="/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f"><span id="spanDonateAddress" runat="server">0x71c765...d8976f</span></a> <i class="fas fa-heart text-danger"></i>
+<p class="mb-0 flex items-center">
+Donations: <a class="me-1" href="/address/0x71c7656ec7ab88b098defb751b7401b5f6d8976f"><span id="spanDonateAddress" runat="server">0x71c765...d8976f</span></a><BsFillHeartFill className='text-[#cc2127]'/>
 </p>
 </div>
 </div>
