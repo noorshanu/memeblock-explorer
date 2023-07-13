@@ -189,3 +189,15 @@ a {
 .border-top{
   border-top: 1px solid #bbb3b355;
 }
+
+.footer-grid{
+  display: flex;
+}
+
+@media (max-width:768px) {
+  .footer-grid{
+    display: grid;
+    grid-template-columns: repeat(2 ,auto);
+  }
+  
+}

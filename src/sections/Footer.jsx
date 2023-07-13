@@ -30,7 +30,7 @@ function Footer() {
 </div>
 <hr class="my-0"/>
 
-<div class="flex justify-between py-8 ">
+<div class="flex footer-grid justify-between py-8 ">
 <div class="col-lg-4 pe-xl-16 mb-4 sm:mb-0">
 <div class="flex items-center mb-3">
 <img class="me-2 h-[60px]"  data-img-theme="light" src="images/logo.png" alt="Ethereum Logo"/>

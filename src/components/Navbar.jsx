@@ -81,7 +81,7 @@ export default function Navbar() {
           <div className=" lg:hidden flex justify-end w-full sm:w-fit">
             <Popover.Button className=" inline-flex items-center justify-center  rounded-md  p-2">
               <span className="sr-only">Open menu</span>
-              <Bars3Icon className="h-6 w-6" color="white" aria-hidden="true" />
+              <Bars3Icon className="h-6 w-6" color="black" aria-hidden="true" />
             </Popover.Button>
           </div>
         </div>
@@ -101,10 +101,10 @@ export default function Navbar() {
           className="absolute inset-x-0 top-0 origin-top-right transform py-2 transition md:hidden"
         >
           <div className=" rounded-lg bg-[#343444] shadow-lg ring-1 ring-black ring-opacity-5">
-            <div className="bg-black px-3 py-3 rounded-md">
+            <div className="bg-white px-3 py-3 rounded-md">
               <div className="flex items-center justify-between">
                 <div className="focus:border:0 flex items-center justify-center  focus:outline-0 focus:ring-0">
-                  <img src="/images/logo.png" alt="" />
+                  <img src="/images/logo.png" alt="" className="h-[55px]" />
                 </div>
                 <div className="mr-2">
                   <Popover.Button className=" inline-flex items-center justify-center rounded-md  p-2">
@@ -112,7 +112,7 @@ export default function Navbar() {
                     <XMarkIcon
                       className="h-6 w-6"
                       aria-hidden="true"
-                      color="white"
+                      color="black"
                     />
                   </Popover.Button>
                 </div>

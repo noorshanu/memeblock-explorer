@@ -8,7 +8,7 @@ function Hero() {
   return (
     <section className="mt-6" id="home">
       <div className="max-w-6xl mx-auto">
-        <div className="flex  justify-between gap-3">
+        <div className="flex flex-col sm:flex-row  justify-between gap-3">
           <div>
             <NetworkTps />
             <CurrentEpoch />

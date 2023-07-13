@@ -3,7 +3,7 @@ import React from "react";
 function AverageBlock() {
   return (
     <div className="card-tran bg-white h-full rounded-xl border border-gray-45  p-[3.5rem]   mb-2">
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col sm:flex-row justify-between items-center">
         <div className="flex gap-2 ">
           <div className=" w-[4px] bg-black rounded-full"></div>
           <div className="h-full">
