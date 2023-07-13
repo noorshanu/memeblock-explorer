@@ -6,7 +6,7 @@ import AverageBlock from "../components/AverageBlock";
 
 function Hero() {
   return (
-    <section className=" pt-6 bg-main" id="home">
+    <section className=" pt-6 pb-4 bg-main" id="home">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col sm:flex-row  justify-between gap-3">
           <div>
