@@ -2,7 +2,7 @@ import React from "react";
 
 function BlockSection() {
   return (
-    <section className="mt-12">
+    <section className="mt-4">
       <div className="max-w-6xl mx-auto">
         <div className="card-tran bg-white h-full rounded-xl border border-gray-45  p-[2.1rem]   mb-2">
           <div className="flex justify-between items-center mb-3">

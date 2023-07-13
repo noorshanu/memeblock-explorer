@@ -4,7 +4,7 @@ function GasPrice() {
   return (
     <>
       <div className="card-tran overflow-hidden bg-white h-full rounded-xl border border-gray-45 mb-3">
-        <div className="flex h-full flex-col gap-5">
+        <div className="flex h-full flex-col gap-1">
           <div className="flex items-center gap-2.5 p-6 pb-0">
             <div className="flex flex-grow flex-wrap items-center gap-2 text-steel">
               <div className="md:text-heading4 text-heading6 text-steel-darker font-semibold">
