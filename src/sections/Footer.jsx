@@ -1,24 +1,25 @@
 import React from 'react'
+import {FaTwitter,FaTelegramPlane,FaInstagram,FaGithub} from 'react-icons/fa'
 
 function Footer() {
   return (
     <>
-    <footer id="masterFooter" class="bg-light mt-auto d-print-none">
+    <footer id="masterFooter" class="bg-[#f8f9fa] mt-auto d-print-none">
 <div class=" mx-auto max-w-7xl">
 <div class="flex justify-between align-items-baseline py-6">
 
 <div class="flex gap-2">
-<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://twitter.com/etherscan" rel="nofollow noopener" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Twitter">
-<i class="fab fa-twitter"></i>
+<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://twitter.com/etherscan" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Twitter">
+<FaTwitter/>
 </a>
-<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://medium.com/etherscan-blog" rel="nofollow noopener" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Medium">
-<i class="fab fa-medium"></i>
+<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://medium.com/etherscan-blog" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Medium">
+<FaTelegramPlane/>
 </a>
-<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://www.facebook.com/etherscan/" rel="nofollow noopener" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Facebook">
-<i class="fab fa-facebook"></i>
+<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://www.facebook.com/etherscan/" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Facebook">
+<FaInstagram/>
 </a>
-<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://www.reddit.com/r/etherscan/" rel="nofollow noopener" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Reddit">
-<i class="fab fa-reddit-alien"></i>
+<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://www.reddit.com/r/etherscan/" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Reddit">
+<FaGithub/>
 </a>
 </div>
 

@@ -1,4 +1,5 @@
 import React from "react";
+import BlockCard from "../components/BlockCard";
 
 function BlockSection() {
   return (
@@ -12,14 +13,17 @@ function BlockSection() {
             </button>
           </div>
           <div className="flex justify-between items-center">
-            <div>block 1</div>
+            <div><BlockCard/></div>
+            <div><BlockCard/></div>
 
-            <div>block 1</div>
+            <div><BlockCard/></div>
 
-            <div>block 1</div>
+            <div><BlockCard/></div>
 
-            <div>block 1</div>
-            <div>block 1</div>
+            <div><BlockCard/></div>
+
+
+         
           </div>
         </div>
       </div>
