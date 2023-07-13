@@ -24,7 +24,7 @@ function Footer() {
 </a>
 </div>
 
-<a class="link-dark flex gap-1 items-center" href="/">
+<a class="text-black font-semibold flex gap-1 items-center" href="/">
 <BsArrowUpSquare/> Back to Top
 </a>
 </div>
