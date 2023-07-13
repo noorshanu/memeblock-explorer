@@ -10,16 +10,16 @@ function Footer() {
 <div class="flex justify-between align-items-baseline py-6">
 
 <div class="flex gap-2">
-<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://twitter.com/etherscan" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Twitter">
+<a class=" bg-gray-400 text-black flex justify-center items-center rounded-full" style={{width:'2rem',height:'2rem'}} href="https://twitter.com/etherscan" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Twitter">
 <FaTwitter/>
 </a>
-<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://medium.com/etherscan-blog" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Medium">
+<a class="bg-gray-400 text-black flex justify-center items-center rounded-full" style={{width:'2rem',height:'2rem'}} href="https://medium.com/etherscan-blog" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Medium">
 <FaTelegramPlane/>
 </a>
-<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://www.facebook.com/etherscan/" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Facebook">
+<a class="bg-gray-400 text-black flex justify-center items-center rounded-full" style={{width:'2rem',height:'2rem'}} href="https://www.facebook.com/etherscan/" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Facebook">
 <FaInstagram/>
 </a>
-<a class="btn btn-sm btn-secondary content-center rounded-circle" style={{width:'2rem',height:'2rem'}} href="https://www.reddit.com/r/etherscan/" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Reddit">
+<a class="bg-gray-400 text-black flex justify-center items-center rounded-full" style={{width:'2rem',height:'2rem'}} href="https://www.reddit.com/r/etherscan/" rel="noreferrer" target="_blank" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" aria-label="Reddit">
 <FaGithub/>
 </a>
 </div>
