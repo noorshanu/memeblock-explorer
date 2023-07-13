@@ -46,16 +46,16 @@ function Footer() {
 <h4 class="font-[700] text-base mb-3">Company</h4>
 
 <ul class="list-unstyled list-sm-space text-sm text-black mb-0">
-<li><a class="link-dark text-black" href="/aboutus">About Us</a></li>
-<li><a class="link-dark text-black" href="/brandassets">Brand Assets</a></li>
-<li><a class="link-dark text-black" href="/contactus">Contact Us</a></li>
+<li><a class="text-sm text-black text-black" href="/aboutus">About Us</a></li>
+<li><a class="text-sm text-black text-black" href="/brandassets">Brand Assets</a></li>
+<li><a class="text-sm text-black text-black" href="/contactus">Contact Us</a></li>
 <li>
-<a class="link-dark text-black" href="/careers">
+<a class="text-sm text-black text-black" href="/careers">
 <span class="me-1">Careers</span> 
 </a>
 </li>
-<li><a class="link-dark text-black" href="/terms">Terms of Service</a></li>
-<li><a class="link-dark text-black" href="/bugbounty">Bug Bounty</a></li>
+<li><a class="text-sm text-black text-black" href="/terms">Terms of Service</a></li>
+<li><a class="text-sm text-black text-black" href="/bugbounty">Bug Bounty</a></li>
 </ul>
 
 </div>
@@ -63,11 +63,11 @@ function Footer() {
 <h4 class="font-[700] text-base mb-3">Community</h4>
 
 <ul class="list-unstyled list-sm-space fs-sm mb-0">
-<li><a class="link-dark" href="https://docs.etherscan.io/" target="_blank">API Documentation</a></li><a class="link-dark" href="https://docs.etherscan.io/" target="_blank">
-</a><li><a class="link-dark" href="https://docs.etherscan.io/" target="_blank"></a><a class="link-dark" href="https://info.etherscan.com/">Knowledge Base</a></li>
-<li><a class="link-dark" href="https://etherscan.freshstatus.io/" rel="nofollow noopener" target="_blank">Network Status</a></li>
-<li><a class="link-dark" href="https://info.etherscan.com/etherscan-newsletters/">Newsletters</a></li>
-<li><a class="link-dark" href="/comments">Disqus Comments</a></li>
+<li><a class="text-sm text-black" href="https://docs.etherscan.io/" target="_blank">API Documentation</a></li><a class="text-sm text-black" href="https://docs.etherscan.io/" target="_blank">
+</a><li><a class="text-sm text-black" href="https://docs.etherscan.io/" target="_blank"></a><a class="text-sm text-black" href="https://info.etherscan.com/">Knowledge Base</a></li>
+<li><a class="text-sm text-black" href="https://etherscan.freshstatus.io/" rel="nofollow noopener" target="_blank">Network Status</a></li>
+<li><a class="text-sm text-black" href="https://info.etherscan.com/etherscan-newsletters/">Newsletters</a></li>
+<li><a class="text-sm text-black" href="/comments">Disqus Comments</a></li>
 </ul>
 
 </div>
@@ -75,12 +75,12 @@ function Footer() {
 <h4 class="h6 font-[700] text-base mb-3">Products &amp; Services</h4>
 
 <ul class="list-unstyled list-sm-space fs-sm mb-0">
-<li><a class="link-dark" href="/contactusadvertise">Advertise</a></li>
-<li><a class="link-dark" href="/eaas">Explorer-as-a-Service (EaaS)</a></li>
-<li><a class="link-dark" href="/apis">API Plans</a></li>
-<li><a class="link-dark" href="/prioritysupport">Priority Support</a></li>
-<li><a class="link-dark" href="https://blockscan.com" target="_blank">Blockscan <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
-<li><a class="link-dark" href="https://chat.blockscan.com/start" target="_blank">Blockscan Chat <i class="far fa-arrow-up-right-from-square text-muted ms-1"></i></a></li>
+<li><a class="text-sm text-black" href="/contactusadvertise">Advertise</a></li>
+<li><a class="text-sm text-black" href="/eaas">Explorer-as-a-Service (EaaS)</a></li>
+<li><a class="text-sm text-black" href="/apis">API Plans</a></li>
+<li><a class="text-sm text-black" href="/prioritysupport">Priority Support</a></li>
+
+<li><a class="text-sm text-black" href="https://chat.blockscan.com/start" target="_blank">Blockscan Chat </a></li>
 </ul>
 
 </div>

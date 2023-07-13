@@ -186,3 +186,6 @@ a {
 .text-nowrap {
   white-space: nowrap !important;
 }
+.border-top{
+  border-top: 1px solid #bbb3b355;
+}
