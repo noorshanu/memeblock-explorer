@@ -43,7 +43,7 @@ export default function Navbar() {
           : "bg-transparent"
       }   max-w-6xl`}
     >
-      <div className="font-orbitron flex items-center justify-between  py-4 px-2 md:justify-start md:space-x-10 animate-top-left">
+      <div className=" flex items-center justify-between  py-4 px-4  sm:px-2 md:justify-start md:space-x-10 animate-top-left">
         <img src="/images/logo.png" className="h-[55px]" alt="" />
         <div className=" flex items-center  flex-grow space-x-4 lg:w-0">
           <Popover.Group

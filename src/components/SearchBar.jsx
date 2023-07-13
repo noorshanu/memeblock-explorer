@@ -7,7 +7,7 @@ function SearchBar() {
   
   return (
     <div className="bg-grad py-2">
-      <div className="flex justify-between items-center max-w-6xl mx-auto">
+      <div className="flex flex-col sm:flex-row justify-between items-center max-w-6xl mx-auto">
         <div>
           <div className="flex gap-4 items-center">
             <BsSearch className="text-white" />
@@ -20,7 +20,7 @@ function SearchBar() {
         </div>
 
         <div className="flex items-center gap-5">
-          <p className="text-white">Powered by MEMEBLOCK</p> <span className="text-white">|</span>
+          <p className="text-white ">Powered by MEMEBLOCK</p> <span className="text-white">|</span>
           <div className=" ">
             <DropdownButton Title='TestNet'
             item1='Main Net'

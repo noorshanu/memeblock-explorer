@@ -13,7 +13,7 @@ function Hero() {
             <NetworkTps />
             <CurrentEpoch />
           </div>
-          <div className="w-[90%]  h-full">
+          <div className="w-full sm:w-[90%]  h-full">
           <AverageBlock />
             <GasPrice />
             
