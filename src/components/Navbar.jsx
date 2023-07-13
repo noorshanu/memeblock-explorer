@@ -44,7 +44,7 @@ export default function Navbar() {
       }   max-w-6xl`}
     >
       <div className="font-orbitron flex items-center justify-between  py-4 px-2 md:justify-start md:space-x-10 animate-top-left">
-        <img src="/assets/logos/text-logo.svg" className="" alt="" />
+        <img src="/images/logo.png" className="h-[55px]" alt="" />
         <div className=" flex items-center  flex-grow space-x-4 lg:w-0">
           <Popover.Group
             as="nav"
@@ -104,7 +104,7 @@ export default function Navbar() {
             <div className="bg-black px-3 py-3 rounded-md">
               <div className="flex items-center justify-between">
                 <div className="focus:border:0 flex items-center justify-center  focus:outline-0 focus:ring-0">
-                  <img src="/assets/logos/text-logo.svg" alt="" />
+                  <img src="/images/logo.png" alt="" />
                 </div>
                 <div className="mr-2">
                   <Popover.Button className=" inline-flex items-center justify-center rounded-md  p-2">
