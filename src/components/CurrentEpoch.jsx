@@ -11,7 +11,7 @@ function CurrentEpoch() {
       </div>
       <div>
         <p className="font=[500] text-base text-slate-600">9h 56m left</p>
-        <div className="relative w-full rounded-full bg-white">
+        <div className="relative w-full rounded-full bg-[#c2c0c0]">
           <div className="py-1 bg-green-500 rounded-full w-[58%]"></div>
         </div>
         <div className="mb-2 mt-4">
