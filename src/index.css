@@ -15,6 +15,9 @@ body{
 .bg-grad{
   background: linear-gradient(269.26deg,#1e244b 6.59%,#2f42aa 94.04%);
 }
+.bg-main {
+  background-image: linear-gradient(176deg,#5a69c1 51.68%,#777a87 100%);
+}
 .card-tran{
   box-shadow: 0 0 35px rgba(127,150,174,.125);
   position: relative;
@@ -192,6 +195,49 @@ a {
 
 .footer-grid{
   display: flex;
+}
+
+.tile.tile-type-block .tile-transaction-type-block {
+  background-color: rgba(62, 105, 87, 0.1);
+  border-bottom: 1px solid #3E6957;
+  border-right: 1px solid #3E6957;
+  border-top: 1px solid #3E6957;
+  color: #3E6957;
+}
+
+.tile-transaction-type-block {
+  
+  align-items: center;
+  bottom: -17px;
+ 
+  justify-content: center;
+  margin-left: -1px;
+  margin-top: -34px;
+  padding: 2rem 4rem;
+  position: relative;
+}
+
+.tile-label {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 2px;
+  text-align: center;
+}
+
+.tile.tile-type-block .tile-status-label {
+  color: inherit;
+}
+
+.tile-transaction-type-block .tile-status-label {
+  padding: 0;
+}
+.tile-status-label {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  padding: 0 5px;
 }
 
 @media (max-width:768px) {

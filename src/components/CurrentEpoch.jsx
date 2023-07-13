@@ -2,7 +2,7 @@ import React from "react";
 
 function CurrentEpoch() {
   return (
-    <div className="bg-[#d5f7ee] h-auto p-[2rem] mt-3 rounded-xl">
+    <div className="card-tran bg-white  rounded-xl border border-gray-45 p-[2rem] mt-3 ">
       <div className="mb-3">
         <h1 className=" text-[16px] sm:text-[16px] font-[700] text-green-600">
           Current Epoch

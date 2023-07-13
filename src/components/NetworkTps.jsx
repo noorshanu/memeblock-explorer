@@ -3,7 +3,7 @@ import React from "react";
 function NetworkTps() {
   return (
     <div>
-      <div className="bg-[#6fbcf01a] h-full rounded-xl p-[2rem]">
+      <div className="card-tran bg-white h-full rounded-xl border border-gray-45 p-8">
         <h1 className=" text-base sm:text-lg font-semibold text-slate-600">
           Network TPS
         </h1>
