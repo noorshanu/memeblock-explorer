@@ -13,7 +13,7 @@ function TransactionBox() {
           Latest User Transactions
           </p>
           <div class="">
-       <button>View All</button>
+       <button className=" text-[#6984aa] bg-[#6984aa1a] border-transparent rounded-md px-2 py-1 font-medium text-base">View All</button>
           </div>
         </div>
         <div class="table-responsive mb-3">
@@ -199,96 +199,11 @@ function TransactionBox() {
                 </td>
                 <td colspan="4"></td>
               </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835389">579835389</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735190">103735190</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:08 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="state_checkpoint_transaction"
-                >
-                  State Checkpoint{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835388">579835388</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735190">103735190</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:08 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="block_metadata_transaction"
-                >
-                  Block Metadata{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835387">579835387</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735189">103735189</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:08 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="state_checkpoint_transaction"
-                >
-                  State Checkpoint{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835386">579835386</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735189">103735189</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:08 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="block_metadata_transaction"
-                >
-                  Block Metadata{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835385">579835385</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735188">103735188</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:07 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="state_checkpoint_transaction"
-                >
-                  State Checkpoint{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
+          
+           
+          
+            
+           
               <tr>
                 <td>
                   <a href="/version/579835384">579835384</a>
@@ -326,114 +241,10 @@ function TransactionBox() {
                   0 <span class="text-muted">APT</span>
                 </td>
               </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835383">579835383</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735188">103735188</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:07 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="block_metadata_transaction"
-                >
-                  Block Metadata{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835382">579835382</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735187">103735187</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:07 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="state_checkpoint_transaction"
-                >
-                  State Checkpoint{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835381">579835381</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735187">103735187</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:07 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="block_metadata_transaction"
-                >
-                  Block Metadata{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835380">579835380</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735186">103735186</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:07 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="state_checkpoint_transaction"
-                >
-                  State Checkpoint{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835379">579835379</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735186">103735186</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:07 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="block_metadata_transaction"
-                >
-                  Block Metadata{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835378">579835378</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735185">103735185</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:07 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="state_checkpoint_transaction"
-                >
-                  State Checkpoint{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
+        
+          
+            
+            
               <tr>
                 <td>
                   <a href="/version/579835377">579835377</a>
@@ -500,78 +311,10 @@ function TransactionBox() {
                 </td>
                 <td colspan="4"></td>
               </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835375">579835375</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735184">103735184</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:06 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="state_checkpoint_transaction"
-                >
-                  State Checkpoint{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835374">579835374</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735184">103735184</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:06 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="block_metadata_transaction"
-                >
-                  Block Metadata{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835373">579835373</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735183">103735183</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:06 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="state_checkpoint_transaction"
-                >
-                  State Checkpoint{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="/version/579835372">579835372</a>
-                </td>
-                <td class="text-nowrap">
-                  <a href="/block/103735183">103735183</a>
-                </td>
-                <td class="text-nowrap">
-                  <span title="Jul-12-2023 11:49:06 AM">33 mins ago</span>
-                </td>
-                <td
-                  class="font-size-1 text-muted text-nowrap"
-                  title="block_metadata_transaction"
-                >
-                  Block Metadata{" "}
-                </td>
-                <td colspan="4"></td>
-              </tr>
+            
+          
+ 
+           
             </tbody>
           </table>
         </div>

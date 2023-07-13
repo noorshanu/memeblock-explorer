@@ -3,7 +3,7 @@ import React from "react";
 function GasPrice() {
   return (
     <>
-      <div className="overflow-hidden bg-white h-full rounded-xl border border-gray-45 mb-3">
+      <div className="card-tran overflow-hidden bg-white h-full rounded-xl border border-gray-45 mb-3">
         <div className="flex h-full flex-col gap-5">
           <div className="flex items-center gap-2.5 p-6 pb-0">
             <div className="flex flex-grow flex-wrap items-center gap-2 text-steel">

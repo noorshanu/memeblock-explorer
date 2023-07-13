@@ -4,7 +4,7 @@ function BlockSection() {
   return (
     <section className="mt-12">
     <div className="max-w-6xl mx-auto">
-      <div className='card bg-white h-full rounded-xl border border-gray-45  p-[3.1rem]   mb-2'>
+      <div className='card-tran bg-white h-full rounded-xl border border-gray-45  p-[3.1rem]   mb-2'>
 
 <div className='flex justify-between items-center'>
   <h1>Blocks</h1>
