@@ -13,7 +13,7 @@ function BlockSection() {
               View All Blocks
             </Link>
           </div>
-          <div className="flex flex-col sm:flex-row justify-between items-center">
+          <div className="flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-0">
             <div><BlockCard/></div>
             <div><BlockCard/></div>
 

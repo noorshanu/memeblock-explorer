@@ -5,8 +5,8 @@ import {BsArrowUpSquare,BsFillHeartFill} from 'react-icons/bs'
 function Footer() {
   return (
     <>
-    <footer id="masterFooter" class="bg-[#f8f9fa] mt-auto d-print-none">
-<div class=" mx-auto max-w-7xl">
+    <footer id="masterFooter" class="bg-[#f8f9fa] mt-auto px-4 sm:px-0 d-print-none">
+<div class=" mx-auto max-w-6xl">
 <div class="flex justify-between align-items-baseline py-6">
 
 <div class="flex gap-2">
