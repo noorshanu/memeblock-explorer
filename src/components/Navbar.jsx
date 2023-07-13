@@ -75,8 +75,8 @@ export default function Navbar() {
           <div className="sm:flex hidden items-center gap-x-4 sm:flex-grow lg:flex-grow-0 justify-end">
             <div className="bg-[#fff] bg-opacity-20 rounded-full h-[30px] w-[2px] mr-7 hidden lg:flex"></div>
 
-            <BsTelegram className="text-black hover:text-[#FD7D00]  hover:bg-white rounded-full text-2xl cursor-pointer" />
-            <AiOutlineTwitter className="text-black hover:text-[#FD7D00] text-2xl cursor-pointer" />
+            <BsTelegram class=" bg-gray-400 text-lg  text-black flex justify-center items-center rounded-full cursor-pointer"  />
+            <AiOutlineTwitter class=" bg-gray-400 text-lg text-black flex justify-center items-center rounded-full cursor-pointer"  />
           </div>
           <div className=" lg:hidden flex justify-end w-full sm:w-fit">
             <Popover.Button className=" inline-flex items-center justify-center  rounded-md  p-2">

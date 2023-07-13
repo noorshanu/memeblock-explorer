@@ -30,37 +30,37 @@ function Footer() {
 </div>
 <hr class="my-0"/>
 
-<div class="flex justify-between py-8 py-lg-10">
-<div class="col-lg-4 pe-xl-16 mb-4 mb-lg-0">
-<div class="flex align-items-center mb-3">
+<div class="flex justify-between py-8 ">
+<div class="col-lg-4 pe-xl-16 mb-4 sm:mb-0">
+<div class="flex items-center mb-3">
 <img class="me-2 h-[60px]"  data-img-theme="light" src="images/logo.png" alt="Ethereum Logo"/>
 
 </div>
-<p class="fs-sm">MEMEBLOCK is a Block Explorer and Analytics Platform<br/> for Ethereum, a decentralized smart contracts platform.</p>
-<div class="d-none d-lg-block mt-n4 mb-n6">
+<p class=" text-sm">MEMEBLOCK is a Block Explorer and Analytics Platform<br/> for Ethereum, a decentralized smart contracts platform.</p>
+<div class="hidden sm:block -mt-4 -mb-6 ">
 <img  width="280"  src="/images/map.png" alt="Background Map"/>
 
 </div>
 </div>
 <div class="col-6 col-md-4 col-lg mb-10 mb-md-0">
-<h4 class="h6 mb-3">Company</h4>
+<h4 class="font-[700] text-base mb-3">Company</h4>
 
-<ul class="list-unstyled list-sm-space fs-sm mb-0">
-<li><a class="link-dark" href="/aboutus">About Us</a></li>
-<li><a class="link-dark" href="/brandassets">Brand Assets</a></li>
-<li><a class="link-dark" href="/contactus">Contact Us</a></li>
+<ul class="list-unstyled list-sm-space text-sm text-black mb-0">
+<li><a class="link-dark text-black" href="/aboutus">About Us</a></li>
+<li><a class="link-dark text-black" href="/brandassets">Brand Assets</a></li>
+<li><a class="link-dark text-black" href="/contactus">Contact Us</a></li>
 <li>
-<a class="link-dark" href="/careers">
-<span class="me-1">Careers</span> <span class="bg-primary text-white small fw-medium text-nowrap rounded-pill p-1 px-2">We're Hiring!</span>
+<a class="link-dark text-black" href="/careers">
+<span class="me-1">Careers</span> 
 </a>
 </li>
-<li><a class="link-dark" href="/terms">Terms of Service</a></li>
-<li><a class="link-dark" href="/bugbounty">Bug Bounty</a></li>
+<li><a class="link-dark text-black" href="/terms">Terms of Service</a></li>
+<li><a class="link-dark text-black" href="/bugbounty">Bug Bounty</a></li>
 </ul>
 
 </div>
 <div class="col-6 col-md-4 col-lg mb-10 mb-md-0">
-<h4 class="h6 mb-3">Community</h4>
+<h4 class="font-[700] text-base mb-3">Community</h4>
 
 <ul class="list-unstyled list-sm-space fs-sm mb-0">
 <li><a class="link-dark" href="https://docs.etherscan.io/" target="_blank">API Documentation</a></li><a class="link-dark" href="https://docs.etherscan.io/" target="_blank">
@@ -72,7 +72,7 @@ function Footer() {
 
 </div>
 <div class="col-6 col-md-4 col-lg">
-<h4 class="h6 mb-3">Products &amp; Services</h4>
+<h4 class="h6 font-[700] text-base mb-3">Products &amp; Services</h4>
 
 <ul class="list-unstyled list-sm-space fs-sm mb-0">
 <li><a class="link-dark" href="/contactusadvertise">Advertise</a></li>
