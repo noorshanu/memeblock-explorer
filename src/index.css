@@ -13,10 +13,10 @@ body{
   @apply max-w-[1180px] mx-auto w-[90%];
 }
 .bg-grad{
-  background: linear-gradient(269.26deg,#1e244b 6.59%,#2f42aa 94.04%);
+  background: linear-gradient(269.26deg,#16956c 6.59%,#2f42aa 94.04%);
 }
 .bg-main {
-  background-image: linear-gradient(176deg,#5a69c1 51.68%,#777a87 100%);
+  background-image: linear-gradient(176deg,#5a69c1 51.68%,#16956c 100%);
 }
 .card-tran{
   box-shadow: 0 0 35px rgba(127,150,174,.125);
