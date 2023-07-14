@@ -15,7 +15,7 @@ let navItems = [
     icon: "/assets/icons/finance.png",
   },
   {
-    label: "coins",
+    label: "Tokens",
     route: "Market",
     icon: "/assets/icons/finance.png",
   },
@@ -25,7 +25,7 @@ let navItems = [
     icon: "/assets/icons/finance.png",
   },
   {
-    label: "Statices",
+    label: "APIs",
     route: "how-to-buy",
     icon: "/assets/icons/finance.png",
   },
