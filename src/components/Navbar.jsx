@@ -40,6 +40,7 @@ export default function Navbar() {
                   item2="Uncles"
                   link2='/uncles'
                   item3="Forked Blocks"
+                  link3='/reogrs'
                 />
               </div>
             </div>
