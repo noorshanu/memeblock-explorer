@@ -3,36 +3,9 @@ import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { BsTelegram } from "react-icons/bs";
 import { AiOutlineTwitter } from "react-icons/ai";
-let navItems = [
-  {
-    label: "Home",
-    route: "/",
-    icon: "/assets/icons/business.png",
-  },
-  {
-    label: "Blockchain",
-    route: "Market",
-    icon: "/assets/icons/finance.png",
-  },
-  {
-    label: "Tokens",
-    route: "Market",
-    icon: "/assets/icons/finance.png",
-  },
-  {
-    label: "Validator",
-    route: "Market",
-    icon: "/assets/icons/finance.png",
-  },
-  {
-    label: "APIs",
-    route: "how-to-buy",
-    icon: "/assets/icons/finance.png",
-  },
-];
+import DropdownButton2 from "./Dropdown2";
 
 export default function Navbar() {
-  const route = "/";
   let blur = false;
   return (
     // bg-[#14141f]
@@ -50,33 +23,48 @@ export default function Navbar() {
             as="nav"
             className="hidden space-x-10 lg:flex justify-center  flex-grow"
           >
-            {navItems.map((nav, i) => {
-              return (
-                <a
-                  key={i}
-                  href={nav.route}
-                  className={`text-medium font-normal text-black hover:text-opacity-100
-                     
-                     ${
-                       route === nav.route
-                         ? " text-opacity-100 "
-                         : "text-opacity-80"
-                     }
-                  `}
-                >
-                  <div className=" flex justify-center items-center">
-                    <img src={nav.icon} className="mr-2" alt="" />
-                    <span>{nav.label}</span>
-                  </div>
-                </a>
-              );
-            })}
+            <div className="text-medium font-normal text-black hover:text-opacity-100">
+              <div className=" flex justify-center items-center">
+                <img src="" className="mr-2" alt="" />
+                <span></span>
+                <DropdownButton2
+                  Title="BlockChain"
+                  item1="BlockS"
+                  item2="Uncles"
+                  item3="Forked Blocks"
+                />
+              </div>
+            </div>
+            <div className="text-medium font-normal text-black hover:text-opacity-100">
+              <div className=" flex justify-center items-center">
+                <img src="" className="mr-2" alt="" />
+                <span></span>
+                <DropdownButton2
+                  Title="Tokens"
+                  item1="All"
+                  item2="MEMB"
+                  
+                />
+              </div>
+            </div>
+            <div className="text-medium font-normal text-black hover:text-opacity-100">
+              <div className=" flex justify-center items-center">
+                <img src="" className="mr-2" alt="" />
+                <span></span>
+                <DropdownButton2
+                  Title="API"
+                  item1="GraphQL"
+                  item2="MEMB"
+                  
+                />
+              </div>
+            </div>
           </Popover.Group>
           <div className="sm:flex hidden items-center gap-x-4 sm:flex-grow lg:flex-grow-0 justify-end">
             <div className="bg-[#fff] bg-opacity-20 rounded-full h-[30px] w-[2px] mr-7 hidden lg:flex"></div>
 
-            <BsTelegram class=" bg-gray-400 text-lg  text-black flex justify-center items-center rounded-full cursor-pointer"  />
-            <AiOutlineTwitter class=" bg-gray-400 text-lg text-black flex justify-center items-center rounded-full cursor-pointer"  />
+            <BsTelegram class=" bg-gray-400 text-lg  text-black flex justify-center items-center rounded-full cursor-pointer" />
+            <AiOutlineTwitter class=" bg-gray-400 text-lg text-black flex justify-center items-center rounded-full cursor-pointer" />
           </div>
           <div className=" lg:hidden flex justify-end w-full sm:w-fit">
             <Popover.Button className=" inline-flex items-center justify-center  rounded-md  p-2">
@@ -120,24 +108,14 @@ export default function Navbar() {
             </div>
             <div className=" py-4 px-2">
               <div className="mb-2 grid grid-cols-1 gap-y-1 gap-x-1">
-                {navItems.map((nav, i) => {
-                  return (
-                    <a
-                      key={i}
-                      href={nav.route}
-                      className={`rounded-md py-2 px-2 text-base font-medium  text-white hover:bg-gray-900
-                        ${
-                          (!route && i === 0) || route === nav.label
-                            ? " bg-gray-900 text-[#54FF7F] "
-                            : "text-white"
-                        }
+                <a
+                  href="/"
+                  className={`rounded-md py-2 px-2 text-base font-medium  text-white hover:bg-gray-900
+                  
                         `}
-                    >
-                      {/* false ? " text-pink-400 bg-gray-900 " : "" */}
-                      {nav.label}
-                    </a>
-                  );
-                })}
+                >
+                  home
+                </a>
               </div>
             </div>
           </div>
