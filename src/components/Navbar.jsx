@@ -7,6 +7,7 @@ import DropdownButton2 from "./Dropdown2";
 import {GiBreakingChain,GiSettingsKnobs} from 'react-icons/gi'
 import {LiaCoinsSolid} from 'react-icons/lia'
 import {FaTelegramPlane} from 'react-icons/fa'
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   let blur = false;
@@ -20,7 +21,9 @@ export default function Navbar() {
       }   max-w-6xl`}
     >
       <div className=" flex items-center justify-between  py-4 px-4  sm:px-2 md:justify-start md:space-x-10 animate-top-left">
+        <Link to='/'>
         <img src="/images/logo.png" className="h-[55px]" alt="" />
+        </Link>
         <div className=" flex items-center  flex-grow space-x-4 lg:w-0">
           <Popover.Group
             as="nav"
