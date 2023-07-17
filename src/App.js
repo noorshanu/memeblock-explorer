@@ -8,6 +8,7 @@ import {
 import Home from "./Pages/Home";
 import BlockPage from "./Pages/BlockPage";
 import TransactionPage from "./Pages/TransactionPage";
+import Uncles from "./Pages/Uncles";
 function App() {
   return (
    
@@ -17,6 +18,7 @@ function App() {
      <Route path="/" element={<Home/>} />
      <Route path="/blocks" element={<BlockPage/>} />
      <Route path="/transactions" element={<TransactionPage/>} />
+     <Route path="/uncles" element={<Uncles/>} />
 
       </Routes>
      </Router>

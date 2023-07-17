@@ -35,8 +35,10 @@ export default function Navbar() {
                 <span><GiBreakingChain/></span> 
                 <DropdownButton2
                   Title="BlockChain"
-                  item1="BlockS"
+                  item1="Blocks"
+                  link1='/blocks'
                   item2="Uncles"
+                  link2='/uncles'
                   item3="Forked Blocks"
                 />
               </div>

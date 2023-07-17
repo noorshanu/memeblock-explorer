@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const DropdownButton2 = ({Title,item1,item2,item3}) => {
+const DropdownButton2 = ({Title,item1,item2,item3,link1,link2,link3}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -43,21 +43,21 @@ const DropdownButton2 = ({Title,item1,item2,item3}) => {
           {/* Dropdown items */}
           <div className="py-1" role="none">
             <a
-              href="/"
+              href={link1}
               className="text-gray-700 block px-4 py-2 text-sm"
               role="menuitem"
             >
               {item1}
             </a>
             <a
-              href="/"
+              href={link2}
               className="text-gray-700 block px-4 py-2 text-sm"
               role="menuitem"
             >
               {item2}
             </a>
             <a
-              href="/"
+              href={link3}
               className="text-gray-700 block px-4 py-2 text-sm"
               role="menuitem"
             >

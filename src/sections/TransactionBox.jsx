@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function TransactionBox() {
   return (
@@ -13,7 +14,7 @@ function TransactionBox() {
           Latest User Transactions
           </p>
           <div class="">
-       <button className=" text-[#6984aa] bg-[#6984aa1a] border-transparent rounded-md px-2 py-1 font-medium text-base">View All</button>
+       <Link to='/transactions' className=" text-[#6984aa] bg-[#6984aa1a] border-transparent rounded-md px-2 py-1 font-medium text-base">View All</Link>
           </div>
         </div>
         <div class="table-responsive mb-3">
