@@ -1,8 +1,20 @@
 import React from 'react'
+import SearchBar from '../components/SearchBar'
+import Navbar from '../components/Navbar'
+import TransactionTable from '../components/TransactionTable'
+import Footer from '../sections/Footer'
 
 function TransactionPage() {
   return (
-    <div>TransactionPage</div>
+    <>
+    <SearchBar/>
+    <Navbar/>
+    <div className=' max-w-6xl mx-auto'>
+      <TransactionTable/>
+
+    </div>
+<Footer/>
+    </>
   )
 }
 
