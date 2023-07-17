@@ -1,9 +1,12 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { BsTelegram } from "react-icons/bs";
+
 import { AiOutlineTwitter } from "react-icons/ai";
 import DropdownButton2 from "./Dropdown2";
+import {GiBreakingChain,GiSettingsKnobs} from 'react-icons/gi'
+import {LiaCoinsSolid} from 'react-icons/lia'
+import {FaTelegramPlane} from 'react-icons/fa'
 
 export default function Navbar() {
   let blur = false;
@@ -24,9 +27,9 @@ export default function Navbar() {
             className="hidden space-x-10 lg:flex justify-center  flex-grow"
           >
             <div className="text-medium font-normal text-black hover:text-opacity-100">
-              <div className=" flex justify-center items-center">
-                <img src="" className="mr-2" alt="" />
-                <span></span>
+              <div className=" flex justify-center items-center gap-2">
+               
+                <span><GiBreakingChain/></span> 
                 <DropdownButton2
                   Title="BlockChain"
                   item1="BlockS"
@@ -36,9 +39,9 @@ export default function Navbar() {
               </div>
             </div>
             <div className="text-medium font-normal text-black hover:text-opacity-100">
-              <div className=" flex justify-center items-center">
+              <div className=" flex justify-center items-center gap-2">
                 <img src="" className="mr-2" alt="" />
-                <span></span>
+                <span><LiaCoinsSolid/></span>
                 <DropdownButton2
                   Title="Tokens"
                   item1="All"
@@ -48,9 +51,9 @@ export default function Navbar() {
               </div>
             </div>
             <div className="text-medium font-normal text-black hover:text-opacity-100">
-              <div className=" flex justify-center items-center">
-                <img src="" className="mr-2" alt="" />
-                <span></span>
+              <div className=" flex justify-center items-center gap-2">
+                
+                <span><GiSettingsKnobs/></span> 
                 <DropdownButton2
                   Title="API"
                   item1="GraphQL"
@@ -63,8 +66,8 @@ export default function Navbar() {
           <div className="sm:flex hidden items-center gap-x-4 sm:flex-grow lg:flex-grow-0 justify-end">
             <div className="bg-[#fff] bg-opacity-20 rounded-full h-[30px] w-[2px] mr-7 hidden lg:flex"></div>
 
-            <BsTelegram class=" bg-gray-400 text-lg  text-black flex justify-center items-center rounded-full cursor-pointer" />
-            <AiOutlineTwitter class=" bg-gray-400 text-lg text-black flex justify-center items-center rounded-full cursor-pointer" />
+            <FaTelegramPlane className=" p-1 bg-gray-400 text-3xl  text-black flex justify-center items-center rounded-full cursor-pointer" />
+            <AiOutlineTwitter className="p-1 bg-gray-400 text-3xl text-black flex justify-center items-center rounded-full cursor-pointer" />
           </div>
           <div className=" lg:hidden flex justify-end w-full sm:w-fit">
             <Popover.Button className=" inline-flex items-center justify-center  rounded-md  p-2">
