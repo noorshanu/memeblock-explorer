@@ -1,5 +1,6 @@
 import React from "react";
-
+import {BsSearch} from 'react-icons/bs'
+import {RxCross2} from 'react-icons/rx'
 function TransactionTable() {
   return (
     <section className="mt-6 mb-6">
@@ -28,21 +29,21 @@ function TransactionTable() {
                       aria-label="Search by Address"
                       aria-describedby="Search"
                     />
-                    <div class="input-group-append">
+                    <div class="input-group-append flex justify-center">
                       <a
-                        class="btn btn-secondary active"
+                        class="bg-[#516b8f] border border-[#4c6587] p-2 active"
                         type="button"
                         title="Click to reset"
                         href="/transactions"
                       >
-                        <i class="far fa-times"></i>
+                        <BsSearch className="text-white"/>
                       </a>
                       <button
-                        class="btn btn-secondary"
+                        class="bg-[#516b8f] border border-[#4c6587] p-2"
                         type="submit"
                         id="button-addon1"
                       >
-                        <i class="far fa-search"></i>
+                        <RxCross2 className=" text-white"/>
                       </button>
                     </div>
                   </form>
