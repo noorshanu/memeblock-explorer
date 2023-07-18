@@ -41,6 +41,10 @@ export default function Navbar() {
                   link2='/uncles'
                   item3="Forked Blocks"
                   link3='/reogrs'
+                  Trans='Transactions'
+                  item4='Validated'
+                  link4='/txs'
+                  
                 />
               </div>
             </div>

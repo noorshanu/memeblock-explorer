@@ -10,6 +10,7 @@ import BlockPage from "./Pages/BlockPage";
 import TransactionPage from "./Pages/TransactionPage";
 import Uncles from "./Pages/Uncles";
 import Reorgs from "./Pages/Reorgs";
+import Validate from "./Pages/Validate";
 function App() {
   return (
    
@@ -21,6 +22,7 @@ function App() {
      <Route path="/transactions" element={<TransactionPage/>} />
      <Route path="/uncles" element={<Uncles/>} />
      <Route path="/reogrs" element={<Reorgs/>} />
+     <Route path="/txs" element={<Validate/>} />
 
       </Routes>
      </Router>

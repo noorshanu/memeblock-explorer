@@ -290,7 +290,16 @@ a {
   border-radius: 0.25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
+.bs-label {
+  display: inline-block;
+  padding: 0 5px;
+  background: #f5f6fa;
+  color: #77838f;
+  border-radius: 5px;
+  font-size: 12px;
+  padding: 5px;
+  line-height: normal;
+}
 @media (max-width:768px) {
   .footer-grid{
     display: grid;
