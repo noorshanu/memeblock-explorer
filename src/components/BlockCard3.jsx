@@ -44,12 +44,12 @@ function BlockCard3() {
 
               <div class="text-nowrap text-truncate mt-3 mt-md-0">
                 {/* <!-- validator --> */}
-                0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35
+                0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35 
                 <a
                   data-test="address_hash_link"
                   href="/address/0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35"
                 >
-                  <span class="" >
+                  <span class=" ml-1" >
                     
                     <span class="d-md-inline-block d-xl-none">
                      
