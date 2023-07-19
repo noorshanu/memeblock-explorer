@@ -74,6 +74,79 @@ function TransactionDetails() {
                 <p className="bg-[#a3a9b596] py-2 px-7 text-sm rounded-md">Confirmed by 8,328</p>
               </div>
             </div>
+
+
+            <div className="flex justify-between max-w-[273px] mt-3 mb-3 ">
+              <div className="flex items-center gap-1">
+                <BsInfoCircleFill
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-content="Hello world!"
+                  data-tooltip-place="top"
+                  className="text-[#a3a9b5] text-sm"
+                />
+                <h2 className="text-[#6c757d] text-sm">Block</h2>
+              </div>
+              <div className="flex items-center gap-3">
+                <p className=" text-[#000000]  text-sm ">62536 </p>
+                
+              </div>
+            </div>
+
+
+            <div className="flex justify-between max-w-[730px] mt-3 mb-3 ">
+              <div className="flex items-center gap-1">
+                <BsInfoCircleFill
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-content="Hello world!"
+                  data-tooltip-place="top"
+                  className="text-[#a3a9b5] text-sm"
+                />
+                <h2 className="text-[#6c757d] text-sm">Timestamp</h2>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className=" flex text-[#000000]  text-sm ">
+                    <p className="flex items-center">a day ago |   july-18-2023  08:45:51 PM +4 UTC | Confirmed within -  10.0 seconds</p>
+                     </div>
+                
+              </div>
+            </div>
+
+            <div className="flex justify-between max-w-[730px] mt-3 mb-3 ">
+              <div className="flex items-center gap-1">
+                <BsInfoCircleFill
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-content="Hello world!"
+                  data-tooltip-place="top"
+                  className="text-[#a3a9b5] text-sm"
+                />
+                <h2 className="text-[#6c757d] text-sm">Timestamp</h2>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className=" flex text-[#000000]  text-sm ">
+                    <p className="flex items-center">a day ago |   july-18-2023  08:45:51 PM +4 UTC | Confirmed within -  10.0 seconds</p>
+                     </div>
+                
+              </div>
+            </div>
+
+
+            <div className="flex justify-between max-w-[730px] mt-3 mb-3 ">
+              <div className="flex items-center gap-1">
+                <BsInfoCircleFill
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-content="Hello world!"
+                  data-tooltip-place="top"
+                  className="text-[#a3a9b5] text-sm"
+                />
+                <h2 className="text-[#6c757d] text-sm">From</h2>
+              </div>
+              <div className="flex items-center gap-3">
+                <div className=" flex text-[#000000]  text-sm ">
+                    <p className="flex items-center">0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35</p>
+                     </div>
+                
+              </div>
+            </div>
           </div>
         </div>
       </div>
