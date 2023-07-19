@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function BlockCard3() {
   const originalString =
@@ -33,9 +34,14 @@ function BlockCard3() {
           <div class="flex justify-between">
             <div>
               {/* <!-- transactions --> */}
+              <Link to='/tx'>
               <span class="mr-2">
                 0x7e0778bfa42f7a96823be2ef3ca952acb51772c80cbd34f71bb65dd9463e776cs
+
               </span>
+
+
+              </Link>
 
               {/* <!-- size --> */}
               <span class="ml-1 bs-label"> Transfer </span>
