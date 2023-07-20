@@ -300,6 +300,13 @@ a {
   padding: 5px;
   line-height: normal;
 }
+
+.react-tabs__tab--selected {
+  background: #2e45a7;
+  border-color: #383838;
+  color: white;
+  border-radius: 5px 5px 0 0;
+}
 @media (max-width:768px) {
   .footer-grid{
     display: grid;
