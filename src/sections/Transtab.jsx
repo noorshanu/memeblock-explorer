@@ -1,5 +1,6 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
+import StateChange from "../components/StateChange";
 
 function Transtab() {
   return (
@@ -10,6 +11,8 @@ function Transtab() {
           <TabList>
             <Tab>Internal Transactions</Tab>
             <Tab>Logs</Tab>
+            <Tab>Raw Trace</Tab>
+            <Tab>State changes</Tab>
           </TabList>
 
           <TabPanel>
@@ -22,7 +25,35 @@ function Transtab() {
             </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any content 2</h2>
+          <div className=" p-[1rem]">
+                <h1 className=" mb-4">Logs</h1>
+                <div className=" bg-[#f8f9fa] rounded-md px-2 py-3 text-center">
+                    <p>There are no Logs for this transaction.</p>
+
+                </div>
+            </div>
+          </TabPanel>
+
+
+          <TabPanel>
+          <div className=" p-[1rem]">
+                <h1 className=" mb-4">Raw Trace</h1>
+                <div className=" bg-[#f8f9fa] rounded-md px-2 py-3 text-center">
+                    <p>There are no Logs for this transaction.</p>
+
+                </div>
+            </div>
+          </TabPanel>
+
+
+          <TabPanel>
+          <div className=" p-[1rem]">
+                <h1 className=" mb-4">State changes</h1>
+             
+                   <StateChange/>
+
+              
+            </div>
           </TabPanel>
         </Tabs>
         </div>
