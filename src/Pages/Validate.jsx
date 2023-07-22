@@ -2,7 +2,7 @@ import React from 'react'
 
 import SearchBar from '../components/SearchBar'
 import Navbar from '../components/Navbar'
-import TransactionTable from '../components/TransactionTable'
+
 import Footer from '../sections/Footer'
 import ValidateSection from '../sections/ValidateSection'
 
