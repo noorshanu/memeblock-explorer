@@ -2,6 +2,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import StateChange from "../components/StateChange";
 import InternalTransactions from "../components/InternalTransactions";
+import CoinBlance from "../components/CoinBlance";
 
 function Transtab() {
   return (
@@ -40,7 +41,7 @@ function Transtab() {
           <div className=" p-[1rem]">
                 <h1 className=" mb-4">Raw Trace</h1>
                 <div className=" bg-[#f8f9fa] rounded-md px-2 py-3 text-center">
-                    <p>There are no Logs for this transaction.</p>
+                   <CoinBlance/>
 
                 </div>
             </div>
