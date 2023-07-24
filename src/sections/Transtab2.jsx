@@ -12,8 +12,8 @@ function Transtab() {
           <TabList>
             <Tab>Transactions</Tab>
             <Tab>Internal Transactions</Tab>
-            <Tab>Raw Trace</Tab>
-            <Tab>State changes</Tab>
+            <Tab>Coin Balance History</Tab>
+            <Tab>Blocks Validated</Tab>
           </TabList>
 
           <TabPanel>
@@ -27,9 +27,9 @@ function Transtab() {
           </TabPanel>
           <TabPanel>
           <div className=" p-[1rem]">
-                <h1 className=" mb-4">Logs</h1>
+                <h1 className=" mb-4">Internal Transactions</h1>
                 <div className=" bg-[#f8f9fa] rounded-md px-2 py-3 text-center">
-                    <p>There are no Logs for this transaction.</p>
+                    <p>There are no internal transactions for this address.</p>
 
                 </div>
             </div>
