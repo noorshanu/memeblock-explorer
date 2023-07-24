@@ -10,8 +10,8 @@ function Transtab() {
         <div className="card-tran bg-white h-full rounded-xl border border-gray-45  p-[2.1rem]">
         <Tabs>
           <TabList>
+            <Tab>Transactions</Tab>
             <Tab>Internal Transactions</Tab>
-            <Tab>Logs</Tab>
             <Tab>Raw Trace</Tab>
             <Tab>State changes</Tab>
           </TabList>
