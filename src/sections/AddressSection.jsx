@@ -4,14 +4,14 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 import { BsInfoCircleFill, BsCheckCircle,BsQrCode } from "react-icons/bs";
 import {BiCopyAlt} from 'react-icons/bi'
 import { AiOutlineCopy } from "react-icons/ai";
-import Transtab from "./Transtab";
+import Transtab2 from "./Transtab2";
 
 function AddressSection() {
   return (
     <section className="mt-4">
       <div className="max-w-6xl mx-auto">
         <div className="card-tran bg-white h-full rounded-xl border border-gray-45  p-[2.1rem]   mb-2">
-          <div className="flex justify-between items-center mb-3">
+          <div className="flex justify-between items-start mb-3">
             <div>
             <h1 className="">Address Details</h1>
             <p>0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35</p>
@@ -152,7 +152,7 @@ function AddressSection() {
 
       <ReactTooltip id="copy" />
 
-      <Transtab/>
+      <Transtab2/>
     </section>
   )
 }

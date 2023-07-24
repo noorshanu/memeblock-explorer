@@ -1,6 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const DropdownButton2 = ({Title,item1,item2,item3,link1,link2,link3,Trans,item4,item5,item6,link4,link5,link6}) => {
+const DropdownButton2 = ({
+  Title,
+  item1,
+  item2,
+  item3,
+  link1,
+  link2,
+  link3,
+  Trans,
+  item4,
+  item5,
+  item6,
+  link4,
+  link5,
+  link6,
+}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleDropdown = () => {
@@ -16,7 +31,7 @@ const DropdownButton2 = ({Title,item1,item2,item3,link1,link2,link3,Trans,item4,
           id="dropdown-menu-button"
           onClick={toggleDropdown}
           aria-haspopup="true"
-          aria-expanded={isOpen ? 'true' : 'false'}
+          aria-expanded={isOpen ? "true" : "false"}
         >
           {Title}
           <svg
@@ -26,10 +41,7 @@ const DropdownButton2 = ({Title,item1,item2,item3,link1,link2,link3,Trans,item4,
             fill="currentColor"
             aria-hidden="true"
           >
-            <path
-              fillRule="evenodd"
-              d="M10 12l-6-6h12l-6 6z"
-            />
+            <path fillRule="evenodd" d="M10 12l-6-6h12l-6 6z" />
           </svg>
         </button>
       </div>
@@ -64,21 +76,19 @@ const DropdownButton2 = ({Title,item1,item2,item3,link1,link2,link3,Trans,item4,
               {item3}
             </a>
 
-            <a href="#href" className='text-gray-700 block px-4 py-2 text-lg'>
-{Trans}
+            <a href="#href" className="text-gray-700 block px-4 py-2 text-lg">
+              {Trans}
             </a>
 
-            <a  href={link4} className="text-gray-700 block px-4 py-2 text-sm">
+            <a href={link4} className="text-gray-700 block px-4 py-2 text-sm">
               {item4}
             </a>
-            <a  href={link5} className="text-gray-700 block px-4 py-2 text-sm">
+            <a href={link5} className="text-gray-700 block px-4 py-2 text-sm">
               {item5}
             </a>
-            <a  href={link6} className="text-gray-700 block px-4 py-2 text-sm">
+            <a href={link6} className="text-gray-700 block px-4 py-2 text-sm">
               {item6}
             </a>
-
-            
           </div>
         </div>
       )}

@@ -1,13 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect,useRef } from 'react';
 
 const DropdownButton = ({Title,item1,item2,item3}) => {
   const [isOpen, setIsOpen] = useState(false);
+  const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    // This function handles click events outside the dropdown
+    const handleOutsideClick = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+
+    // Add the event listener to the document when the component mounts
+    document.addEventListener('click', handleOutsideClick);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.removeEventListener('click', handleOutsideClick);
+    };
+  }, []);
+
   return (
+    <div ref={dropdownRef} className="relative inline-block text-left">
     <div className="relative inline-block text-left">
       <div>
         <button
@@ -66,6 +85,7 @@ const DropdownButton = ({Title,item1,item2,item3}) => {
           </div>
         </div>
       )}
+    </div>
     </div>
   );
 };
