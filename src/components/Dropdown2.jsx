@@ -94,19 +94,9 @@ const DropdownButton2 = ({
               {item3}
             </a>
 
-            <a href="#href" className="text-gray-700 block px-4 py-2 text-lg">
-              {Trans}
-            </a>
-
-            <a href={link4} className="text-gray-700 block px-4 py-2 text-sm">
-              {item4}
-            </a>
-            <a href={link5} className="text-gray-700 block px-4 py-2 text-sm">
-              {item5}
-            </a>
-            <a href={link6} className="text-gray-700 block px-4 py-2 text-sm">
-              {item6}
-            </a>
+          
+           
+       
           </div>
         </div>
       )}

@@ -1,4 +1,5 @@
 import React from "react";
+import GasChart from "./GasChart";
 
 function GasPrice() {
   return (
@@ -91,16 +92,7 @@ function GasPrice() {
             <div className="relative flex-1 self-stretch">
               <div className="absolute h-full w-full" >
                 <div className="relative h-full w-full overflow-hidden">
-                <canvas data-chart="historyChart" data-history_chart_paths="{
-                        &quot;market&quot;:&quot;/market-history-chart&quot;
-
-                        ,
-
-
-                        &quot;transaction&quot;:&quot;/transaction-history-chart&quot;
-
-}" data-history_chart_config="{&quot;transactions&quot;:[&quot;transactions_per_day&quot;]}" width="625" height="185" >
-          </canvas>
+               <GasChart/>
                 </div>
               </div>
             </div>

@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-import { AiOutlineTwitter } from "react-icons/ai";
+import { AiOutlineTwitter,AiOutlineSwap } from "react-icons/ai";
 import DropdownButton2 from "./Dropdown2";
 import {GiBreakingChain,GiSettingsKnobs} from 'react-icons/gi'
 import {LiaCoinsSolid} from 'react-icons/lia'
@@ -41,13 +41,28 @@ export default function Navbar() {
                   link2='/uncles'
                   item3="Forked Blocks"
                   link3='/reogrs'
-                  Trans='Transactions'
-                  item4='Validated'
-                  link4='/txs'
+                 
                   
                 />
               </div>
             </div>
+
+            <div className="text-medium font-normal text-black hover:text-opacity-100">
+              <div className=" flex justify-center items-center gap-2">
+               
+                <span><AiOutlineSwap/></span> 
+                <DropdownButton2
+                  Title="Transactions"
+               
+                  item1='Validated'
+                  link1='/txs'
+                  item2='Pending'
+                  link2='/pending'
+                />
+              </div>
+            </div>
+
+
             <div className="text-medium font-normal text-black hover:text-opacity-100">
               <div className=" flex justify-center items-center gap-2">
                 <img src="" className="mr-2" alt="" />

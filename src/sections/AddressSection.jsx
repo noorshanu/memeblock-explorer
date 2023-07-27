@@ -23,7 +23,7 @@ function AddressSection() {
             </div>
           </div>
           <div className="">
-            <div className="flex justify-between max-w-3xl ">
+            <div className="flex justify-between max-w-[387px] ">
               <div className="flex items-center gap-1">
                 <BsInfoCircleFill
                   data-tooltip-id="my-tooltip"
@@ -68,7 +68,7 @@ function AddressSection() {
               </div>
             </div>
 
-            <div className="flex justify-between max-w-[545px] mt-3 mb-3 ">
+            <div className="flex justify-between max-w-[335px] mt-3 mb-3 ">
               <div className="flex items-center gap-1">
                 <BsInfoCircleFill
                   data-tooltip-id="my-tooltip"
@@ -86,7 +86,7 @@ function AddressSection() {
               </div>
             </div>
 
-            <div className="flex justify-between max-w-[274px] mt-3 mb-3 ">
+            <div className="flex justify-between max-w-[296px] mt-3 mb-3 ">
               <div className="flex items-center gap-1">
                 <BsInfoCircleFill
                   data-tooltip-id="my-tooltip"
@@ -101,7 +101,7 @@ function AddressSection() {
               </div>
             </div>
 
-            <div className="flex justify-between max-w-[738px] mt-3 mb-3 ">
+            <div className="flex justify-between max-w-[293px] mt-3 mb-3 ">
               <div className="flex items-center gap-1">
                 <BsInfoCircleFill
                   data-tooltip-id="my-tooltip"
@@ -120,7 +120,7 @@ function AddressSection() {
               </div>
             </div>
 
-            <div className="flex justify-between max-w-[587px] mt-3 mb-3 ">
+            <div className="flex justify-between max-w-[293px] mt-3 mb-3 ">
               <div className="flex items-center gap-1">
                 <BsInfoCircleFill
                   data-tooltip-id="my-tooltip"

@@ -1,22 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react';
+import CanvasJSReact from '@canvasjs/react-charts';
 
-function CoinBlance() {
+var CanvasJS = CanvasJSReact.CanvasJS;
+var CanvasJSChart = CanvasJSReact.CanvasJSChart;
+
+const CoinBalance = () => {
+  const [options, setOptions] = useState({
+    theme: "light2",
+    animationEnabled: true,
+    exportEnabled: true,
+    title: {
+      text: "Number of iPhones Sold"
+    },
+    axisY: {
+      title: "Number of iPhones ( in Million )"
+    },
+    data: [
+      {
+        type: "area",
+        xValueFormatString: "YYYY",
+        yValueFormatString: "#,##0.## Million",
+        dataPoints: [
+          { x: new Date(2017, 0), y: 7.6 },
+          { x: new Date(2016, 0), y: 7.3 },
+          { x: new Date(2015, 0), y: 6.4 },
+          { x: new Date(2014, 0), y: 5.3 },
+          { x: new Date(2013, 0), y: 4.5 },
+          { x: new Date(2012, 0), y: 3.8 },
+          { x: new Date(2011, 0), y: 3.2 }
+        ]
+      }
+    ]
+  });
+
   return (
-    <section>
-        <div className='max-w-6xl mx-auto'>
-            <div>
-                <h1>Balances</h1>
+    <div>
+      <CanvasJSChart options={options} />
+    </div>
+  );
+};
 
-            </div>
-
-<div>
-<div data-chart-container="" class="mb-4" >
-          <canvas data-chart="coinBalanceHistoryChart" data-coin_balance_history_data_path="/address/0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35/coin-balances/by-day" width="1510" height="656" style={{display: 'block', boxSizing: 'border-box', height: '525px', width: '1208px'}}></canvas>
-        </div>
-</div>
-        </div>
-    </section>
-  )
-}
-
-export default CoinBlance
+export default CoinBalance;
+                         
