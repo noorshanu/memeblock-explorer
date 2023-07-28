@@ -12,6 +12,7 @@ import Uncles from "./Pages/Uncles";
 import Reorgs from "./Pages/Reorgs";
 import Validate from "./Pages/Validate";
 import Wallet from "./Pages/Wallet";
+import Wallet2 from "./Pages/Wallet2";
 import TxAddress from "./Pages/TxAddress";
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
      <Route path="/reogrs" element={<Reorgs/>} />
      <Route path="/txs" element={<Validate/>} />
      <Route path="/address" element={<Wallet/>} />
+     <Route path="/address2" element={<Wallet2/>} />
      <Route path="/tx" element={<TxAddress/>} />
 
       </Routes>

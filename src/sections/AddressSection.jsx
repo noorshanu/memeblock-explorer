@@ -23,7 +23,7 @@ function AddressSection() {
             </div>
           </div>
           <div className="">
-            <div className="flex justify-between max-w-[387px] ">
+            <div className="flex justify-between max-w-[369px] ">
               <div className="flex items-center gap-1">
                 <BsInfoCircleFill
                   data-tooltip-id="my-tooltip"
@@ -36,13 +36,7 @@ function AddressSection() {
               <div className="flex">
                 <p className="flex items-center gap-1 text-sm" id="copy">
                 5.192E+15 MEMEB
-                  <span>
-                    <AiOutlineCopy
-                      data-tooltip-id="copy"
-                      data-tooltip-content="Copy"
-                      data-tooltip-place="top"
-                    />
-                  </span>
+              
                 </p>
               </div>
             </div>

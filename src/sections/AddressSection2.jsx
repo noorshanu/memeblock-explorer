@@ -4,7 +4,7 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 import { BsInfoCircleFill, BsCheckCircle,BsQrCode } from "react-icons/bs";
 import {BiCopyAlt} from 'react-icons/bi'
 import { AiOutlineCopy } from "react-icons/ai";
-import Transtab2 from "./Transtab2";
+import Transtab3 from "./Transtab3";
 
 function AddressSection() {
   return (
@@ -152,7 +152,7 @@ function AddressSection() {
 
       <ReactTooltip id="copy" />
 
-      <Transtab2/>
+      <Transtab3/>
     </section>
   )
 }

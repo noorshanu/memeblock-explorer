@@ -50,10 +50,15 @@ function BlockCard3() {
 
               <div class="text-nowrap text-truncate mt-3 mt-md-0">
                 {/* <!-- validator --> */}
-                0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35 
                 <a
                   data-test="address_hash_link"
-                  href="/address/0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35"
+                  href="/address"
+                >
+                0x868B132291e8b93AFbD10A799Ec0Da0CE17A2e35 
+                </a>
+                <a
+                  data-test="address_hash_link"
+                  href="/address2"
                 >
                   <span class=" ml-1" >
                     
@@ -76,7 +81,10 @@ function BlockCard3() {
           </div>
           <div class=" text-right flex flex-col items-center justify-center mt-0 mt-md-0">
             {/* <!-- Priority Fee --> */}
+            <a href="/blocks">
+
             <span> Block #62536</span>
+            </a>
             {/* <!-- Burnt Fees --> */}
             <span> 6 hours ago </span>
 
