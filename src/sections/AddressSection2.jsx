@@ -35,9 +35,10 @@ function AddressSection() {
               </div>
               <div className="flex">
                 <p className="flex items-center gap-1 text-sm" id="copy">
-                5.192E+15 MEMEB
+                45 MEMEB
                   <span>
                     <AiOutlineCopy
+              
                       data-tooltip-id="copy"
                       data-tooltip-content="Copy"
                       data-tooltip-place="top"
