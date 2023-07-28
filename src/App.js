@@ -14,6 +14,9 @@ import Validate from "./Pages/Validate";
 import Wallet from "./Pages/Wallet";
 import Wallet2 from "./Pages/Wallet2";
 import TxAddress from "./Pages/TxAddress";
+import Pending from "./Pages/Pending";
+import AllTokens from "./Pages/AllTokens";
+import MembToken from "./Pages/MembToken";
 function App() {
   return (
    
@@ -29,6 +32,10 @@ function App() {
      <Route path="/address" element={<Wallet/>} />
      <Route path="/address2" element={<Wallet2/>} />
      <Route path="/tx" element={<TxAddress/>} />
+     <Route path="/pending" element={<Pending/>} />
+     <Route path="/alltoken" element={<AllTokens/>} />
+     <Route path="/membtoken" element={<MembToken/>} />
+
 
       </Routes>
      </Router>

@@ -70,7 +70,9 @@ export default function Navbar() {
                 <DropdownButton2
                   Title="Tokens"
                   item1="All"
+                  link1='/alltoken'
                   item2="MEMB"
+                  link2='/membtoken'
                   
                 />
               </div>

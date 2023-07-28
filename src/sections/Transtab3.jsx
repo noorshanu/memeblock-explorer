@@ -14,7 +14,7 @@ function Transtab3() {
             <Tab>Transactions</Tab>
             <Tab>Internal Transactions</Tab>
             <Tab>Coin Balance History</Tab>
-            <Tab>Blocks Validated</Tab>
+          
           </TabList>
 
           <TabPanel>
@@ -48,15 +48,7 @@ function Transtab3() {
           </TabPanel>
 
 
-          <TabPanel>
-          <div className=" p-[1rem]">
-                <h1 className=" mb-4">State changes</h1>
-             
-                   <StateChange/>
-
-              
-            </div>
-          </TabPanel>
+          
         </Tabs>
         </div>
        
