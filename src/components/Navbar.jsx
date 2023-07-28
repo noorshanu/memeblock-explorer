@@ -79,12 +79,7 @@ export default function Navbar() {
               <div className=" flex justify-center items-center gap-2">
                 
                 <span><GiSettingsKnobs/></span> 
-                <DropdownButton2
-                  Title="API"
-                  item1="GraphQL"
-                  item2="MEMB"
-                  
-                />
+              <a href="/" className="text-black text-sm font-medium"> API</a>
               </div>
             </div>
           </Popover.Group>
