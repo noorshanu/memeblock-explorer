@@ -23,7 +23,7 @@ function AddressSection() {
             </div>
           </div>
           <div className="">
-            <div className="flex justify-between max-w-[387px] ">
+            <div className="flex justify-between max-w-[312px] ">
               <div className="flex items-center gap-1">
                 <BsInfoCircleFill
                   data-tooltip-id="my-tooltip"
@@ -36,14 +36,7 @@ function AddressSection() {
               <div className="flex">
                 <p className="flex items-center gap-1 text-sm" id="copy">
                 45 MEMEB
-                  <span>
-                    <AiOutlineCopy  
-              
-                      data-tooltip-id="copy"
-                      data-tooltip-content="Copy"
-                      data-tooltip-place="top"
-                    />
-                  </span>
+               
                 </p>
               </div>
             </div>
@@ -87,6 +80,25 @@ function AddressSection() {
               </div>
             </div>
 
+
+            <div className="flex justify-between max-w-[311px] mt-3 mb-3 ">
+              <div className="flex items-center gap-1">
+                <BsInfoCircleFill
+                  data-tooltip-id="my-tooltip"
+                  data-tooltip-content="Hello world!"
+                  data-tooltip-place="top"
+                  className="text-[#a3a9b5] text-sm"
+                />
+                <h2 className="text-[#6c757d] text-sm"> Transfers</h2>
+              </div>
+              <div className="flex items-center gap-3">
+                
+                <p className="  text-sm ">
+                0 Transfers
+                </p>
+              </div>
+            </div>
+
             <div className="flex justify-between max-w-[296px] mt-3 mb-3 ">
               <div className="flex items-center gap-1">
                 <BsInfoCircleFill
@@ -121,24 +133,7 @@ function AddressSection() {
               </div>
             </div>
 
-            <div className="flex justify-between max-w-[293px] mt-3 mb-3 ">
-              <div className="flex items-center gap-1">
-                <BsInfoCircleFill
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-content="Hello world!"
-                  data-tooltip-place="top"
-                  className="text-[#a3a9b5] text-sm"
-                />
-                <h2 className="text-[#6c757d] text-sm">Blocks Validated</h2>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className=" flex text-[#000000]  text-sm ">
-                  <p className="flex items-center">
-                  111,453
-                  </p>
-                </div>
-              </div>
-            </div>
+      
 
 
         
